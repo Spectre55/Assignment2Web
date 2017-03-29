@@ -1,0 +1,236 @@
+﻿
+@font-face 
+{
+    font-family: 'ARDESTINE';
+    src: url('/fonts/ARDESTINE.TTF') format('truetype');
+}
+@font-face 
+{
+    font-family: 'GILSANUB';
+    src: url('/fonts/GILSANUB.TTF') format('truetype');
+}
+@font-face 
+{
+    font-family: 'SOURCECODEPRO-BLACK';
+    src: url('/fonts/SOURCECODEPRO-BLACK.TTF') format('truetype');
+}
+
+body 
+{
+    background: rgb(0,0,0); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(17,17,17,1) 36%, rgba(22,20,20,1) 52%, rgba(17,17,17,1) 65%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(17,17,17,1) 36%,rgba(22,20,20,1) 52%,rgba(17,17,17,1) 65%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(17,17,17,1) 36%,rgba(22,20,20,1) 52%,rgba(17,17,17,1) 65%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    color: white;
+    font-family: 'GILSANUB', Times, serif;
+    font-size: 18px;
+    margin: 0;
+}
+.cancelBtn
+{
+    background-image:url('/images/cancelBtn.png');
+     background-repeat:no-repeat;
+    background-size:contain;
+    height:25px;
+    width:25px;
+}
+.delBtn
+{
+    background-image:url('/images/delBtn.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:25px;
+    width:25px;
+}
+.editBtn
+{
+    background-image:url('/images/editBtn.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:25px;
+    width:25px;
+}
+.insertBtn
+{
+    background-image:url('/images/insertBtn.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:25px;
+    width:25px;
+}
+.gameIcon
+{
+    height: 200px;
+    width: 200px;
+}
+
+.gameTdArea
+{
+   padding: 20px;
+}
+.gameTable
+{
+    margin: 0 auto;
+}
+.gameIconName
+{
+    text-align: center;
+}
+#headImg
+{
+    height:200px;
+    background-repeat:repeat-x;
+    width: 100%;
+}
+header 
+{
+    background-color: black;
+}
+.icon
+{
+    height:100px;
+    width:100px;
+}
+#dropDownHolder
+{
+    margin-left: 2%;
+}
+.miniIcon
+{
+    height:50px;
+    width:50px;
+}
+#nav 
+{
+    background-color: white;
+    color: black;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+nav ul 
+{
+    color: black;
+    display: -webkit-inline-box;
+    font-family: 'GILSANUB' Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul li a 
+{
+    color: black;
+    font-family: 'GILSANUB' Times, serif;
+}
+#siteContent 
+{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#siteTitle
+{
+    font-family: "ARDESTINE", Times, serif;
+    font-size: 72px;
+    text-align:center;
+}
+#titleHolder
+{
+    box-shadow: black 10px 10px;
+    
+overflow-x: hidden;
+    padding-top: 20px; /*must be the same height as the .navbar since its static*/
+}
+.updateBtn
+{
+    background-image:url('/images/updateBtn.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:25px;
+    width:25px;
+}
+.upload
+{
+    
+}
+
+
+#banner
+{
+    background-image: url("../images/banner.png");
+    height:200px;
+    background-repeat:repeat-x;
+    width:100%;
+   
+}
+#loginDiv, .loginDiv
+{
+    position: absolute;
+    right: 0;
+    width:inherit;
+    z-index: 100;
+}
+
+#goRight, .goRight
+{
+    float: right;
+    margin-right: 25px;
+}
+
+input
+{
+    color: black;
+}
+.loginElement 
+{
+    display: inline;
+}
+
+
+#mainContentDiv
+{
+    margin: 0 145px;
+    width: 80%;
+}
+#mainForm p, p
+{
+    font-size: 17px;
+    
+}
+.page-header 
+{
+    text-align: center;
+}
+/***************************************************************************************888*/
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea 
+{
+    max-width: 280px;
+}
+
+/*#grad1 {
+    /*height: 200px;
+    background-color: dimgray; /* For browsers that do not support gradients    
+    background: -webkit-linear-gradient(black,#404040,black); /* For Safari 5.1 to 6.0 
+    background: -o-linear-gradient(left, black,#404040,black); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(left, black,#404040,black); /* For Firefox 3.6 to 15 
+    background: linear-gradient(left, black,#404040,black); /* Standard syntax (must be last) 
+}*/
+
+h1, h2, h3,p
+{
+    color : #FFFFFF;
+}

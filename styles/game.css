@@ -1,0 +1,74 @@
+﻿.accordion
+{
+	width: 130%; 
+	overflow: hidden; 
+	margin: 10px auto;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.35);
+}
+	/* overflow everything outside of it is hidden,  */
+	
+.accordion ul
+{
+    width:inherit;
+}	
+
+.accordion li
+{
+	position:relative;
+	float:left;
+	display:block;
+	width:160px;
+	border-left: 1px solid #888;
+	box-shadow:0 0 46px 3px rgba(119, 116, 116, 0.35);
+	transition: all 0.5s; 
+} 
+
+.accordion ul:hover li
+{
+    width: 40px;
+} /* general one  */
+	
+.accordion ul li:hover
+{
+    width: 640px;
+} /* specific items in list */
+
+.accordion li img 
+{
+    display:block;
+    height:500px;
+
+}
+
+#gameIcon 
+{
+    height: 300px;
+    width: 300px;
+}
+#gameTitle
+{
+    font-size: 100px;
+}
+#iconDiv 
+{
+    float:left;
+    margin-left: 3%;
+}
+p
+{
+    margin-left: 30px;
+}
+td 
+{
+    padding: 16px;
+}
+#titleDiv
+{
+    margin-left: 10%;
+}
+#topDiv
+{
+    display: flex;
+}
+
+
